@@ -33,6 +33,7 @@ export default function MouForm() {
             placeholder="(Partner)"
             value={partner1}
             onChange={handleChange1}
+            id="partner1"
           />
           <p>And</p>
           <input
@@ -40,6 +41,7 @@ export default function MouForm() {
             placeholder="(Partner)"
             value={partner2}
             onChange={handleChange2}
+            id="partner2"
           />
           {partner1 && partner2 ? (
             <h4>
